@@ -78,7 +78,7 @@ app.get("/api/pokemon/aleatorio", (req, res) => {
         //status da resposta
         status: "sucess",
         //URL da imagem que foi sorteada
-        message: `http://localhost:${PORT}/fotos/${item}`
+        message: `http://${req.get('host')}/fotos/${item}`
     });
 });
 
@@ -110,7 +110,7 @@ app.get("/api/pokemon/:tipo", (req, res) => {
         //status de sucesso
         status: "sucess",
         //URL da imagem sorteada
-        message: `http://localhost:${PORT}/fotos/${item}`
+        message: `http://${req.get('host')}/fotos/${item}`
     });
 
 });
