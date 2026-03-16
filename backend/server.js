@@ -121,7 +121,7 @@ app.get("/api/cachorros/:raca", (req, res) =>{
 //rota 2 
 //=============================================
 
-app.listen(PORT, () => {
-    console.log(`🤠Servidor rodando em http://localhost:${PORT}`)
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`🤠Servidor rodando em http://'0.0.0.0':${PORT}`)
     console.log(`coloque as fotos manualmente em data/fotos/`)
 })

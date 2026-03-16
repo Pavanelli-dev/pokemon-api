@@ -41,7 +41,7 @@ const pokemonArea = document.querySelector(".pokemon-area");
 // endereço base da nossa API local
 // localhost = computador do próprio usuário
 // porta 3000 = onde o servidor Node está rodando
-const API = "http://localhost:3000/api/pokemon";
+const API = "http://10.106.208.27:3000/api/pokemon";
 
 
 // ==============================

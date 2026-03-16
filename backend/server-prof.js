@@ -118,8 +118,8 @@ app.get("/api/pokemon/:tipo", (req, res) => {
 // INICIA O SERVIDOR
 //===================================
 //iniciar o servidor express
-app.listen(PORT, () => {
-    console.log(`🚀 Servidor rodando em http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`🚀 Servidor rodando em http://0.0.0.0:${PORT}`);
     console.log(`📂 Coloque as fotos manualmente em: data/fotos/`);	
     console.log("BUGADÃO")
     
