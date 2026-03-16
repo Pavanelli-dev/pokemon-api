@@ -1,0 +1,7 @@
+{
+    "agua": ["agua/gairadus.jpg", "agua/greninja.jpg", "agua/lapras.jpg", "agua/squirtle.jpg", "agua/vaporeon.jpg"],
+    "eletrico": ["eletrico/raichu.jpg", "eletrico/pikachu.jpg", "eletrico/zapdus.jpg","eletrico/electivire.jpg", "eletrico/Luxray.jpg" ],
+    "fogo": ["fogo/charizard.jpg", "fogo/dragonite.jpg","fogo/Litleo.jpg", "fogo/moltres.jpg", "fogo/Talonflame.jpg"],
+    "psiquico": ["psiquico/alakazam.jpg", "psiquico/slowbro.jpg", "psiquico/gardevoir.jpg", "psiquico/laatios.jpg", "psiquico/mew.jpg", "psiquico/Oricorio-Baile.jpg", "psiquico/psyduck.jpg"],
+    "veneno":["veneno/drapion.jpg", "veneno/koffing.png", "veneno/Nidorino.webp", "veneno/tadmorv.jpg", "veneno/toxapex.jpg", "veneno/vileplume.jpg"]
+}  

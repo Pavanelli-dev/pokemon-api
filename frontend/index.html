@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>� Pokemon Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🔥 Pokedex</h1>
+        <p class="subtitle">Consumindo nossa própria API em Node.js</p>
+
+        <div class="pokemon-area">
+            <img src="" alt="Pokemon" id="pokemonImage">
+            <div id="typeName"></div>
+        </div>
+
+        <div class="controls">
+            <button id="randomBtn">🎲 Pokemon Aleatório</button>
+        </div>
+
+        <div class="search">
+            <input
+                type="text"
+                id="typeInput"
+                placeholder="Digite um tipo (ex: fogo, agua)"
+            >
+            <button id="searchBtn">🔍 Buscar</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
