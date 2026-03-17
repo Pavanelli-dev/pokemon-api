@@ -95,8 +95,9 @@ h1 {
 
 .pokemon-area {
 
+
     /* fundo da área da imagem */
-    background: #f5f5f5;
+    background: linear-gradient(135deg, #830a0a, #1c1c1c);
 
     /* cantos arredondados */
     border-radius: 15px;
