@@ -44,5 +44,14 @@ A aplicação permite:
 ! Importante iniciar com (node) dentro da pasta back-end !
 
 
+imagem requsição web:
+<img width="353" height="35" alt="Captura de tela 2026-03-17 133741" src="https://github.com/user-attachments/assets/dd0b3acf-88a3-4090-8964-a2d8b12d7d95" />
 
+
+
+
+
+
+server rodando:
+<img width="483" height="73" alt="Captura de tela 2026-03-17 133813" src="https://github.com/user-attachments/assets/eeaf1ffe-6235-4ef9-b57b-5ff8b6ebc381" />
 
