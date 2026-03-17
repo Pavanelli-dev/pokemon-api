@@ -57,7 +57,7 @@ body {
     width: 100%;
 
     /* fundo branco */
-    background: white;
+    background: rgb(255, 255, 255);
 
     /* espaço interno */
     padding: 30px;
@@ -202,7 +202,7 @@ button {
     border-radius: 8px;
 
     /* cor de fundo */
-    background: #764ba2;
+    background: #830909;
 
     /* cor do texto */
     color: white;
@@ -218,7 +218,10 @@ button {
 button:hover {
 
     /* muda a cor quando o mouse passa por cima */
-    background: #667eea;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-delay: 1s; 
+    background: #ea6666;
 }
 
 
